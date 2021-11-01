@@ -2,6 +2,15 @@
 
 # Meetings
 
+## 10/29/2021
+
+**Paper**: [Sparse MoEs meet Efficient Ensembles](https://arxiv.org/abs/2110.03360)
+
+**Abstract**: Machine learning models based on the aggregated outputs of submodels, either at the activation or prediction levels, lead to strong performance. We study the interplay of two popular classes of such models: ensembles of neural networks and sparse mixture of experts (sparse MoEs). First, we show that these two approaches have complementary features whose combination is beneficial. Then, we present partitioned batch ensembles, an efficient ensemble of sparse MoEs that takes the best of both classes of models. Extensive experiments on fine-tuned vision transformers demonstrate the accuracy, log-likelihood, few-shot learning, robustness, and uncertainty calibration improvements of our approach over several challenging baselines. Partitioned batch ensembles not only scale to models with up to 2.7B parameters, but also provide larger performance gains for larger models. 
+
+**Presenter**: Bo Zheng [slides](slides/bozheng/bo_zheng_reading_group.pptx)
+
+
 ## 10/22/2021
 
 **Paper**: [Towards a Unified View of Parameter-Efficient Transfer Learning](https://arxiv.org/abs/2110.04366)
