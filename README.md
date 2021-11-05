@@ -2,7 +2,7 @@
 
 # Meetings
 
-## 11/05/2021
+## 11/5/2021
 
 **Paper**: [When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute](https://arxiv.org/abs/2102.12459)
 
