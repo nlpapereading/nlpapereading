@@ -2,6 +2,16 @@
 
 # Meetings
 
+## 11/05/2021
+
+**Paper**: [When Attention Meets Fast Recurrence: Training Language Models with Reduced Compute](https://arxiv.org/abs/2102.12459)
+
+**Abstract**: Large language models have become increasingly difficult to train because of the growing computation time and cost. In this work, we present SRU++, a highly-efficient architecture that combines fast recurrence and attention for sequence modeling. SRU++ exhibits strong modeling capacity and training efficiency. On standard language modeling tasks such as Enwik8, Wiki-103 and Billion Word datasets, our model obtains better bits-per-character and perplexity while using 3x-10x less training cost compared to top-performing Transformer models. For instance, our model achieves a state-of-the-art result on the Enwik8 dataset using 1.6 days of training on an 8-GPU machine. We further demonstrate that SRU++ requires minimal attention for near state-of-the-art performance. Our results suggest jointly leveraging fast recurrence with little attention as a promising direction for accelerating model training and inference.
+
+
+**Presenter**: Chengyi Wang [slides](slides/chengyiwang/paper_reading_ChengyiWang.pptx)
+
+
 ## 10/29/2021
 
 **Paper**: [Sparse MoEs meet Efficient Ensembles](https://arxiv.org/abs/2110.03360)
