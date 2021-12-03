@@ -11,6 +11,24 @@ This is the reading group homepage for Natural Language Computing Group, Microso
 
 # Meetings
 
+## 12/03/2021
+
+**Tutorial**: [Vector Quantised Variational Auto-Encoder](slides/junlongli/VQ-VAE.pptx)
+
+**Abstract** This is a tutorial on Vector Quantised Variational Auto-Encoder (VQ-VAE). It covers the original formulation of VQ-VAE [1][2] and its recent development VQ-GAN [3] and dVAE [4] as well as its applications to speech processing [5], text-to-image generation [4] and vision representation learning [6][7].
+
+**References** <br>
+[1] Neural Discrete Representation Learning https://arxiv.org/abs/1711.00937 <br>
+[2] Generating Diverse High-Fidelity Images with VQ-VAE-2 https://arxiv.org/abs/1906.00446 <br>
+[3] Taming Transformers for High-Resolution Image Synthesis https://arxiv.org/abs/2012.09841 <br>
+[4] Zero-Shot Text-to-Image Generation https://arxiv.org/abs/2102.12092 <br>
+[5] vq-wav2vec: Self-Supervised Learning of Discrete Speech Representations https://arxiv.org/abs/1910.05453 <br>
+[6] BEiT: BERT Pre-Training of Image Transformers https://arxiv.org/abs/2106.08254 <br>
+[7] PeCo: Perceptual Codebook for BERT Pre-training of Vision Transformers https://arxiv.org/abs/2111.12710 <br>
+
+**Presenter**: Junlong Li [slides](slides/junlongli/VQ-VAE.pptx)
+
+
 ## 11/26/2021
 
 **Paper**: [Masked Autoencoders Are Scalable Vision Learners](https://arxiv.org/pdf/2111.06377.pdf) 
