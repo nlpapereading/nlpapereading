@@ -3,7 +3,7 @@
 This is the reading group homepage for Natural Language Computing Group, Microsoft Research Asia (MSRA). We regularly have interns to present interesting (and usually recent) papers on a wide range of topics including but not limited to Natural Language Processing, Computer Vision, Speech Processing and Machine Learning.
 
 # Schedule
-3:00 pm to 4:00 pm  (GMT+8) on Friday in Conf Rm bjw 2/13158, Microsoft Beijing.
+3:00 pm to 4:00 pm  (GMT+8) on Friday in Conf Rm BJW 2/13158, Microsoft Beijing.
 
 # What's in this Repo?
 
