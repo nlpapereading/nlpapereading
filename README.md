@@ -23,6 +23,8 @@ In this work we follow up on this idea and demonstrate the effectiveness of the 
 **Presenter**: Yaru Hao [slides](slides/yaruhao/IB_pre.pptx)
 
 
+## 12/24/2021
+Skip due to Christmas Party! Merry Christmas!
 
 ## 12/17/2021
 
