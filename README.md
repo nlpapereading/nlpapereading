@@ -11,6 +11,33 @@ This is the reading group homepage for Natural Language Computing Group, Microso
 
 # Meetings
 
+## 01/07/2022
+
+**Paper**: [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477)
+
+**Abstract** 
+
+This is actually a tutorial of the wav2vec serial work from Facebook. This
+tutorial focuses on the wav2vec 2.0 model, but will also mention its earlier
+variants such as CPC, wav2vec, vq-wav2vec and models built upon it (e.g.,
+wav2vec-U, BigSSL and W2V-BERT). The following is the abstract of the wav2vec
+2.0 paper, which may give you some ideas of the wav2vec serial models.
+
+We show for the first time that learning powerful representations from speech audio alone followed by fine-tuning on transcribed speech can outperform the best semi-supervised methods while being conceptually simpler. wav2vec 2.0 masks the speech input in the latent space and solves a contrastive task defined over a quantization of the latent representations which are jointly learned. Experiments using all labeled data of Librispeech achieve 1.8/3.3 WER on the clean/other test sets. When lowering the amount of labeled data to one hour, wav2vec 2.0 outperforms the previous state of the art on the 100 hour subset while using 100 times less labeled data. Using just ten minutes of labeled data and pre-training on 53k hours of unlabeled data still achieves 4.8/8.2 WER. This demonstrates the feasibility of speech recognition with limited amounts of labeled data.
+
+**References** 
+
+[1] CPC: https://arxiv.org/abs/1807.03748 , https://arxiv.org/abs/2002.02848 <br>
+[2] wav2vec：https://arxiv.org/abs/1904.05862 <br>
+[3] vq-wav2vec：https://arxiv.org/abs/1910.05453 <br>
+[4] wav2vec-U：https://arxiv.org/abs/2105.11084 <br>
+[5] BigSSL： https://arxiv.org/abs/2109.13226 <br>
+[6] W2V-BERT：https://arxiv.org/abs/2108.06209 <br>
+
+**Presenter**: Sanyuan Chen [slides](slides/sanyuanchen/wav2vec_presentation.pptx)
+
+
+
 ## 12/31/2021
 
 **Paper**: [Opening the Black Box of Deep Neural Networks via Information](https://arxiv.org/abs/1703.00810)
