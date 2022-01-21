@@ -11,6 +11,32 @@ This is the reading group homepage for Natural Language Computing Group, Microso
 
 # Meetings
 
+
+## 02/04/2022
+Skip due to Spring Festival Holiday!
+
+
+
+## 01/28/2022
+Skip due to Spring Festival Holiday!
+
+
+
+## 01/21/2022
+
+**Paper**: [Vector-based navigation using grid-like representations in artificial agents](https://www.nature.com/articles/s41586-018-0102-6.pdf)
+
+**Abstract** 
+
+Deep neural networks have achieved impressive successes in fields ranging from object recognition to complex games such as Go. Navigation, however, remains a substantial challenge for artificial agents, with deep neural networks trained by reinforcement learning failing to rival the proficiency of mammalian spatial behaviour, which is underpinned by grid cells in the entorhinal cortex. Grid cells are thought to provide a multi-scale periodic representation that functions as a metric for coding space and is critical for integrating self-motion (path integration) and planning direct trajectories to goals (vector-based navigation). Here we set out to leverage the computational functions of grid cells to develop a deep reinforcement learning agent with mammal-like navigational abilities. We first trained a recurrent network to perform path integration, leading to the emergence of representations resembling grid cells, as well as other entorhinal cell types. We then showed that this representation provided an effective basis for an agent to locate goals in challenging, unfamiliar, and changeable environments—optimizing the primary objective of navigation through deep reinforcement learning. The performance of agents endowed with grid-like representations surpassed that of an expert human and comparison agents, with the metric quantities necessary for vector-based navigation derived from grid-like units within the network. Furthermore, grid-like representations enabled agents to conduct shortcut behaviours reminiscent of those performed by mammals. Our findings show that emergent grid-like representations furnish agents with a Euclidean spatial metric and associated vector operations, providing a foundation for proficient navigation.
+
+
+**Presenter**: Weizhi Wang [slides](slides/weizhiwang/2022-1-13-Weizhi-Reading_Group.pptx)
+
+## 01/14/2022
+
+Skip due to New Year Team Building!
+
 ## 01/07/2022
 
 **Paper**: [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477)
