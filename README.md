@@ -26,12 +26,12 @@ Vision-Language Pre-training (VLP) has advanced the performance for many vision-
 
 
 ## 02/04/2022
-Skip due to Spring Festival Holiday!
+Skip due to Spring Festival Holidays!
 
 
 
 ## 01/28/2022
-Skip due to Spring Festival Holiday!
+Skip due to Spring Festival Holidays!
 
 
 
