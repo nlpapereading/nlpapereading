@@ -11,6 +11,18 @@ This is the reading group homepage for Natural Language Computing Group, Microso
 
 # Meetings
 
+## 02/18/2022
+
+**Paper**: [Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective](https://hal.archives-ouvertes.fr/hal-03521715/document)
+
+**Abstract** 
+
+In recent years, joint text-image embeddings have significantly improved thanks to the development of transformer based Vision-Language models. Despite these advances, we still need to better understand the representations produced by those models. In this paper, we compare pre-trained and finetuned representations at a vision, language and multimodal level. To that end, we use a set of probing tasks to evaluate the performance of state-of-the-art Vision-Language models and introduce new datasets specifically for multimodal probing. These datasets are carefully designed to address a range of multimodal capabilities while minimizing the potential for models to rely on bias. Although the results confirm the ability of Vision-Language models to understand color at a multimodal level, the models seem to prefer relying on bias in text data for object position and size. On semantically adversarial examples, we find that those models are able to pinpoint finegrained multimodal differences. Finally, we also notice that fine-tuning a Vision-Language model on multimodal tasks does not necessarily improve its multimodal ability. We make all datasets and code available to replicate experiments.
+
+**Presenter**: Haoyu Song [slides](slides/haoyusong/paper_reading_20220218@HaoyuSong.pptx)
+
+
+
 
 ## 02/11/2022
 
