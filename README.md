@@ -11,6 +11,18 @@ This is the reading group homepage for Natural Language Computing Group, Microso
 
 # Meetings
 
+## 02/25/2022
+
+**Paper**: [Open-vocabulary Object Detection via Vision and Language Knowledge Distillation](https://arxiv.org/abs/2104.13921)
+
+**Abstract** 
+
+We aim at advancing open-vocabulary object detection, which detects objects described by arbitrary text inputs. The fundamental challenge is the availability of training data. Existing object detection datasets only contain hundreds of categories, and it is costly to scale further. To overcome this challenge, we propose ViLD, a training method via Vision and Language knowledge Distillation. Our method distills the knowledge from a pretrained open-vocabulary image classification model (teacher) into a two-stage detector (student). Specifically, we use the teacher model to encode category texts and image regions of object proposals. Then we train a student detector, whose region embeddings of detected boxes are aligned with the text and image embeddings inferred by the teacher. We benchmark on LVIS by holding out all rare categories as novel categories not seen during training. ViLD obtains 16.1 mask APr, even outperforming the supervised counterpart by 3.8 with a ResNet-50 backbone. The model can directly transfer to other datasets without finetuning, achieving 72.2 AP50, 36.6 AP and 11.8 AP on PASCAL VOC, COCO and Objects365, respectively. On COCO, ViLD outperforms previous SOTA (Zareian et al., 2021) by 4.8 on novel AP and 11.4 on overall AP.
+
+**Presenter**: Hongcheng Guo [slides](slides/hongchengguo/Open_Voc_detection.pptx)
+
+
+
 ## 02/18/2022
 
 **Paper**: [Are Vision-Language Transformers Learning Multimodal Representations? A Probing Perspective](https://hal.archives-ouvertes.fr/hal-03521715/document)
