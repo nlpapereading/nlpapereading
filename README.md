@@ -11,6 +11,18 @@ This is the reading group homepage for Natural Language Computing Group, Microso
 
 # Meetings
 
+## 03/04/2022
+
+**Paper**: [REVISITING OVER-SMOOTHING IN BERT FROM THE PERSPECTIVE OF GRAPH](https://openreview.net/pdf?id=dUV91uaXm3)
+
+**Abstract** 
+
+Recently over-smoothing phenomenon of Transformer-based models is observed in both vision and language fields. However, no existing work has delved deeper to further investigate the main cause of this phenomenon. In this work, we make the attempt to analyze the over-smoothing problem from the perspective of graph, where such problem was first discovered and explored. Intuitively, the self-attention matrix can be seen as a normalized adjacent matrix of a corresponding graph. Based on the above connection, we provide some theoretical analysis and find that layer normalization plays a key role in the over-smoothing issue of Transformer-based models. Specifically, if the standard deviation of layer normalization is sufficiently large, the output of Transformer stacks will converge to a specific low-rank subspace and result in over-smoothing. To alleviate the over-smoothing problem, we consider hierarchical fusion strategies, which combine the representations from different layers adaptively to make the output more diverse. Extensive experiment results on various data sets illustrate the effect of our fusion method.
+
+**Presenter**: Haiteng Zhao [slides](slides/haitengzhao)
+
+
+
 ## 02/25/2022
 
 **Paper**: [Open-vocabulary Object Detection via Vision and Language Knowledge Distillation](https://arxiv.org/abs/2104.13921)
