@@ -11,6 +11,18 @@ This is the reading group homepage for Natural Language Computing Group, Microso
 
 # Meetings
 
+## 03/11/2022
+
+**Paper**: [Toward Robust VQA: Overcoming the Out-of-distribution Problem in VQA](slides/qingyisi/OOD_VQA.pptx)
+
+**Abstract** 
+
+Background: Visual Question Answering (VQA) is a multi-modal task, involving the comprehension of vision, language and strong reasoning skills. Despite the remarkable performance on many VQA datasets such as VQA v2 , models for VQA have been criticized for their tendency to depend on dataset biases introduced by human annotators. For example, since about 40% of questions that begin with “what sport” have the answer “tennis”, systems tend to learn to output “tennis” for these questions regardless of image content. The models output the answer relying on the language priors rather than the reasoning ability. To evaluate the VQA models’ reasoning ability beyond the shortcuts in a training set, VQA-CP v2 dataset is constructed by re-organizing the VQA v2 dataset to make the answer distributions of the same question type are different between the training set and test set, and it has become the current out-of-distribution(OOD) benchmark in the VQA community.
+
+**Presenter**: Qingyi Si [slides](slides/qingyisi/OOD_VQA.pptx)
+
+
+
 ## 03/04/2022
 
 **Paper**: [REVISITING OVER-SMOOTHING IN BERT FROM THE PERSPECTIVE OF GRAPH](https://openreview.net/pdf?id=dUV91uaXm3)
@@ -19,7 +31,7 @@ This is the reading group homepage for Natural Language Computing Group, Microso
 
 Recently over-smoothing phenomenon of Transformer-based models is observed in both vision and language fields. However, no existing work has delved deeper to further investigate the main cause of this phenomenon. In this work, we make the attempt to analyze the over-smoothing problem from the perspective of graph, where such problem was first discovered and explored. Intuitively, the self-attention matrix can be seen as a normalized adjacent matrix of a corresponding graph. Based on the above connection, we provide some theoretical analysis and find that layer normalization plays a key role in the over-smoothing issue of Transformer-based models. Specifically, if the standard deviation of layer normalization is sufficiently large, the output of Transformer stacks will converge to a specific low-rank subspace and result in over-smoothing. To alleviate the over-smoothing problem, we consider hierarchical fusion strategies, which combine the representations from different layers adaptively to make the output more diverse. Extensive experiment results on various data sets illustrate the effect of our fusion method.
 
-**Presenter**: Haiteng Zhao [slides](slides/haitengzhao)
+**Presenter**: Haiteng Zhao [slides](slides/haitengzhao/2022_3_3.pptx)
 
 
 
