@@ -10,7 +10,7 @@ This is the reading group homepage for Natural Language Computing Group, Microso
 * Slides for Presented Papers
 
 # Reading List
-Sometimes there are too many interesting papers and we are not able to present them all. <br>
+Sometimes there are too many interesting papers and we are not able to present all of them. <br>
 So here is a [reading list](readinglist.md), which includes interesting papers not covered by reading group presenters.
 
 # Meetings
