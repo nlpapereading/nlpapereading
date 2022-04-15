@@ -15,6 +15,18 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 04/15/2022
+
+**Paper**: [Efficient Language Modeling with Sparse all-MLP](https://arxiv.org/abs/2203.06850)
+
+**Abstract** 
+
+All-MLP architectures have attracted increasing interest as an alternative to attention-based models. In NLP, recent work like gMLP shows that all-MLPs can match Transformers in language modeling, but still lag behind in downstream tasks. In this work, we analyze the limitations of MLPs in expressiveness, and propose sparsely activated MLPs with mixture-of-experts (MoEs) in both feature and input (token) dimensions. Such sparse all-MLPs significantly increase model capacity and expressiveness while keeping the compute constant. We address critical challenges in incorporating conditional computation with two routing strategies. The proposed sparse all-MLP improves language modeling perplexity and obtains up to 2x improvement in training efficiency compared to both Transformer-based MoEs (GShard, Switch Transformer, Base Layers and HASH Layers) as well as dense Transformers and all-MLPs. Finally, we evaluate its zero-shot in-context learning performance on six downstream tasks, and find that it surpasses Transformer-based MoEs and dense Transformers.
+
+
+**Presenter**: Yuan Xie [slides](slides/yuanxie/TBD.pdf)
+
+
 ## 04/08/2022
 **Paper**: [Gradient Vaccine: Investigating and Improving Multi-task Optimization in Massively Multilingual Models](https://arxiv.org/abs/2010.05874)
 
