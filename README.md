@@ -15,6 +15,18 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 04/22/2022
+
+**Paper**: [data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://arxiv.org/abs/2202.03555)
+
+**Abstract** 
+
+While the general idea of self-supervised learning is identical across modalities, the actual algorithms and objectives differ widely because they were developed with a single modality in mind. To get us closer to general self-supervised learning, we present data2vec, a framework that uses the same learning method for either speech, NLP or computer vision. The core idea is to predict latent representations of the full input data based on a masked view of the input in a self-distillation setup using a standard Transformer architecture. Instead of predicting modality-specific targets such as words, visual tokens or units of human speech which are local in nature, data2vec predicts contextualized latent representations that contain information from the entire input. Experiments on the major benchmarks of speech recognition, image classification, and natural language understanding demonstrate a new state of the art or competitive performance to predominant approaches.
+
+**Presenter**: Ziqiang Zhang [slides](slides/ziqiangzhang/paper_reading_data2vec.pptx)
+
+
+
 ## 04/15/2022
 
 **Paper**: [Efficient Language Modeling with Sparse all-MLP](https://arxiv.org/abs/2203.06850)
