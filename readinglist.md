@@ -7,4 +7,6 @@
 * OpenAI DALL-E-2: [Hierarchical Text-Conditional Image Generation with CLIP Latents](https://cdn.openai.com/papers/dall-e-2.pdf)
 * 540B LM trained on Pathways ML system: [PaLM: Scaling Language Modeling with Pathways](https://arxiv.org/abs/2204.02311)
 
+## May 2022
+* OPT 175B [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068) | **code**: [metaseq](https://github.com/facebookresearch/metaseq)
 
