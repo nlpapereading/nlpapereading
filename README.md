@@ -15,6 +15,36 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 05/06/2022
+
+**Paper**: [Autoregressive Search Engines: Generating Substrings as Document Identifiers](https://arxiv.org/abs/2204.10628)
+
+**Abstract** 
+
+Knowledge-intensive language tasks require NLP systems to both provide the correct answer and retrieve supporting evidence for it in a given corpus. Autoregressive language models are emerging as the de-facto standard for generating answers, with newer and more powerful systems emerging at an astonishing pace. In this paper we argue that all this (and future) progress can be directly applied to the retrieval problem with minimal intervention to the models' architecture. Previous work has explored ways to partition the search space into hierarchical structures and retrieve documents by autoregressively generating their unique identifier. In this work we propose an alternative that doesn't force any structure in the search space: using all ngrams in a passage as its possible identifiers. This setup allows us to use an autoregressive model to generate and score distinctive ngrams, that are then mapped to full passages through an efficient data structure. Empirically, we show this not only outperforms prior autoregressive approaches but also leads to an average improvement of at least 10 points over more established retrieval solutions for passage-level retrieval on the KILT benchmark, establishing new state-of-the-art downstream performance on some datasets, while using a considerably lighter memory footprint than competing systems. Code and pre-trained models at this https URL.
+
+**Presenter**: Xingxing Zhang [slides](slides/xingxingzhang/TBD.pdf)
+
+## 04/27/2022
+
+**Invited Talk**: Diversity-Driven Reinforcement Learning: Win the Game with Creativity
+
+**Time**: April 27 (Wednesday) 2022, 4:30pm - 5:30pm
+
+**Location**: Conf Rm BJW 2/12257
+
+
+**Abstract** 
+
+Advances in deep reinforcement learning (RL) have helped solve a large number of AI open challenges and defeat human professionals in a variety of testbeds. The objective of RL algorithms is to achieve the highest rewards as fast as possible, which typically yields straightforward strategies that can directly win the game with the highest efficiency. This is a very different paradigm compared with humans, who often invented interesting behaviors not only for winning the game but also for fun. Is it possible for RL agents to also discover novel behaviors that are interesting under human judgment? In this talk, we present an in-depth analysis of this open question and present a novel paradigm, diversity-driven RL, which forces the RL agents to win the game with as many distinct strategies as possible. We will also introduce two practical algorithmic solutions and demonstrate the interesting emergent behaviors discovered in a collection of environments.
+
+**Bio**:
+
+Yi Wu is now an assistant professor at institute for interdisciplinary information sciences (IIIS), Tsinghua university. He obtained his PhD degree from UC Berkeley in 2019 under the supervision of Prof. Stuart Russell and was a researcher at OpenAI before moving back to Tsinghua. His research focuses on improving the generalization capabilities of learning agents. He is broadly interested in a variety of topics in AI, including deep reinforcement learning, multi-agent systems, natural language understanding and robot learning. His representative works include value iteration network, the MADDPG algorithm and OpenAI's hide-and-seek project. He also received the best paper award at NIPS 2016.
+
+
+
+
 ## 04/22/2022
 
 **Paper**: [data2vec: A General Framework for Self-supervised Learning in Speech, Vision and Language](https://arxiv.org/abs/2202.03555)
