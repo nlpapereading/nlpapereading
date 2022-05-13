@@ -15,6 +15,16 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 05/13/2022
+
+**Paper**: [Wav2Seq: Pre-training Speech-to-Text Encoder-Decoder Models Using Pseudo Languages](https://arxiv.org/pdf/2205.01086)
+
+**Abstract** 
+We introduce Wav2Seq, the first self-supervised approach to pre-train both parts of encoder-decoder models for speech data. We induce a pseudo language as a compact discrete representation, and formulate a self-supervised pseudo speech recognition task — transcribing audio inputs into pseudo subword sequences. This process stands on its own, or can be applied as low-cost second-stage pre-training. We experiment with automatic speech recognition (ASR), spoken named entity recognition, and speech-to-text translation. We set new state-of-the-art results for end-to-end spoken named entity recognition, and show consistent improvements on 20 language pairs for speech-to-text translation, even when competing methods use additional text data for training. On ASR, our approach enables encoder-decoder methods to benefit from pre-training for all parts of the network, and shows comparable performance to highly optimized recent methods.
+
+**Presenter**: Zhuoyuan Yao [slides](slides/zhuoyuanyao/TBD.pptx)
+
+
 ## 05/06/2022
 
 **Paper**: [Autoregressive Search Engines: Generating Substrings as Document Identifiers](https://arxiv.org/abs/2204.10628)
