@@ -17,7 +17,7 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 ## 05/27/2022
 
-**Paper**: [Flamingo: a Visual Language Model for Few-Shot Learning]([https://arxiv.org/pdf/2205.01086](https://arxiv.org/abs/2204.14198))
+**Paper**: [Flamingo: a Visual Language Model for Few-Shot Learning](https://arxiv.org/abs/2204.14198)
 
 **Abstract**
 
