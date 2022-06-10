@@ -16,7 +16,7 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 # Meetings
 
 ## 06/10/2022
-**Paper**: [Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval]([https://arxiv.org/abs/2204.14198](https://aclanthology.org/2022.acl-long.203/)
+**Paper**: [Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval](https://aclanthology.org/2022.acl-long.203/)
 
 **Abstract**
 
