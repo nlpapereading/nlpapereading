@@ -15,6 +15,15 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 06/10/2022
+**Paper**: [Unsupervised Corpus Aware Language Model Pre-training for Dense Passage Retrieval]([https://arxiv.org/abs/2204.14198](https://aclanthology.org/2022.acl-long.203/)
+
+**Abstract**
+
+Recent research demonstrates the effectiveness of using fine-tuned language models (LM) for dense retrieval. However, dense retrievers are hard to train, typically requiring heavily engineered fine-tuning pipelines to realize their full potential. In this paper, we identify and address two underlying problems of dense retrievers: i) fragility to training data noise and ii) requiring large batches to robustly learn the embedding space. We use the recently proposed Condenser pre-training architecture, which learns to condense information into the dense vector through LM pre-training. On top of it, we propose coCondenser, which adds an unsupervised corpus-level contrastive loss to warm up the passage embedding space. Experiments on MS-MARCO, Natural Question, and Trivia QA datasets show that coCondenser removes the need for heavy data engineering such as augmentation, synthesis, or filtering, and the need for large batch training. It shows comparable performance to RocketQA, a state-of-the-art, heavily engineered system, using simple small batch fine-tuning.
+
+**Presenter**: Zehan Li [slides](slides/zehanli/TBD.pptx)
+
 ## 06/03/2022
 skip due to Dragon Boat Festival
 
