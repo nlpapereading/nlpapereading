@@ -9,4 +9,7 @@
 
 ## May 2022
 * OPT 175B [OPT: Open Pre-trained Transformer Language Models](https://arxiv.org/abs/2205.01068) | **code**: [metaseq](https://github.com/facebookresearch/metaseq)
+* Imagen [Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding](https://arxiv.org/abs/2205.11487) | [project page](https://imagen.research.google/)
 
+## June 2022
+* BIG-bench [Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models](https://arxiv.org/abs/2206.04615) |  [code](https://github.com/google/BIG-bench)
