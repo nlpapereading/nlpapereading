@@ -15,6 +15,9 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 06/24/2022
+skip due to EMNLP ddl
+
 ## 06/17/2022
 **Paper**: [MaskOCR: Text Recognition with Masked Encoder-Decoder Pretraining](https://arxiv.org/abs/2206.00311) and [Language Matters: A Weakly Supervised Pre-training Approach for Scene Text Detection and Spotting](https://arxiv.org/abs/2203.03911)
 
