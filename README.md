@@ -15,6 +15,31 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 07/08/2022
+
+**Paper**: [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf)
+
+**Abstract**
+
+How could machines learn as efficiently as humans and animals? How could machines learn to reason and plan? How could machines learn representations of percepts and action plans at multiple levels of abstraction, enabling them to reason, predict, and plan at multiple time horizons? This position paper proposes an architecture and training paradigms with which to construct autonomous intelligent agents. It combines concepts such as configurable predictive world model, behavior driven through intrinsic motivation, and hierarchical joint embedding architectures trained with self-supervised learning.
+
+
+
+
+**Presenter**: Zhixiong Han  [slides](slides/zhixionghan/TBD.pptx)
+
+
+## 07/01/2022
+
+**Paper**: [Improving Non-Autoregressive Translation Models Without Distillation](https://openreview.net/forum?id=I2Hw58KHp8O)
+
+**Abstract**
+
+Transformer-based autoregressive (AR) machine translation models have achieved significant performance improvements, nearing human-level accuracy on some languages. The AR framework translates one token at a time which can be time consuming, especially for long sequences. To accelerate inference, recent work has been exploring non-autoregressive (NAR) approaches that translate blocks of tokens in parallel. Despite significant progress, leading NAR models still lag behind their AR counterparts, and only become competitive when trained with distillation. In this paper we investigate possible reasons behind this performance gap, namely, the indistinguishability of tokens, and mismatch between training and inference. We then propose the Conditional Masked Language Model with Correction (CMLMC) that addresses these problems. Empirically, we show that CMLMC achieves state-of-the-art NAR performance when trained on raw data without distillation and approaches AR performance on multiple datasets.
+
+**Presenter**: Heming Xia  [slides](slides/hemingxia/TBD.pptx)
+
+
 ## 06/24/2022
 skip due to EMNLP ddl
 
