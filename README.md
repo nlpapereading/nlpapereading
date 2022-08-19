@@ -15,6 +15,10 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 08/19/2022
+
+skip
+
 ## 08/12/2022
 
 **Paper**: [SPoT: Better Frozen Model Adaptation through Soft Prompt Transfer](https://arxiv.org/abs/2110.07904)
