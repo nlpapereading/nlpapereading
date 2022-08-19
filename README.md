@@ -15,6 +15,18 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 07/15/2022
+
+**Paper**: [ROTOGRAD: GRADIENT HOMOGENIZATION IN MULTITASK LEARNING](https://arxiv.org/pdf/2103.02631.pdf)
+
+**Abstract**
+
+Multitask learning is being increasingly adopted in applications domains like computer vision and reinforcement learning. However, optimally exploiting its advantages remains a major challenge due to the effect of negative transfer. Previous works have tracked down this issue to the disparities in gradient magnitudes and directions across tasks when optimizing the shared network parameters. While
+recent work has acknowledged that negative transfer is a two-fold problem, existing approaches fall short. These methods only focus on either homogenizing the gradient magnitude across tasks; or greedily change the gradient directions, overlooking future conflicts. In this work, we introduce RotoGrad, an algorithm that tackles negative transfer as a whole: it jointly homogenizes gradient magnitudes and directions, while ensuring training convergence. We show that RotoGrad outperforms competing methods in complex problems, including multi-label classification in CelebA and computer vision tasks in the NYUv2 dataset. A Pytorch implementation can be found in https://github.com/adrianjav/rotograd
+
+**Presenter**: Yiran Liu [slides](slides/yiranliu/rotograd0715.pptx)
+
+
 ## 07/08/2022
 
 **Paper**: [A Path Towards Autonomous Machine Intelligence](https://openreview.net/pdf?id=BZ5a1r-kVsf)
