@@ -19,15 +19,15 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 **Invited Talk**: Challenges in long sequence encoding and state-space models
 
-Time: Auguest 25 (Friday) 2022, 1:00pm - 2:00pm
+**Time**: Auguest 25 (Friday) 2022, 1:00pm - 2:00pm
 
-Location: Conf Rm BJW 2/12158
+**Location**: Conf Rm BJW 2/12158
 
 **Abstract**
 
 Encoding long sequence is a challenging problem in machine learning and natural language processing. Recently, there is a new family of neural architecture, the state-space models, that receives large attention due to its huge success on the Long Range Arena benchmark and other long sequence encoding tasks. This talk discusses the underlying mathematical principles of state-space models and challenges of using them for language tasks such as question answering and long document summarization.
 
-Bio:
+**Bio**:
 
 Yao Fu is a Ph.D. student at the University of Edinburgh with professor Mirella Lapata (2020-). His research focus on language generation and structured prediction. He finished his M.S. at Columbia University (2018-2020) with professor John Cunningham and B.S. at Peking University (2013-2018) with professor Yansong Feng. His website is: [https://franxyao.github.io](https://franxyao.github.io/)
 
