@@ -31,6 +31,7 @@ Encoding long sequence is a challenging problem in machine learning and natural 
 
 Yao Fu is a Ph.D. student at the University of Edinburgh with professor Mirella Lapata (2020-). His research focus on language generation and structured prediction. He finished his M.S. at Columbia University (2018-2020) with professor John Cunningham and B.S. at Peking University (2013-2018) with professor Yansong Feng. His website is: [https://franxyao.github.io](https://franxyao.github.io/)
 
+**Blog Post**: [Why S4 is Good at Long Sequence: Remembering a Sequence with Online Function Approximation](https://yaofu.notion.site/Why-S4-is-Good-at-Long-Sequence-Remembering-a-Sequence-with-Online-Function-Approximation-836fc54a49aa413b84997a265132f13f)
 
 ## 08/19/2022
 
