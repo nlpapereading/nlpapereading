@@ -38,6 +38,8 @@ Yao Fu is a Ph.D. student at the University of Edinburgh with professor Mirella 
 
 **Blog Post**: [Why S4 is Good at Long Sequence: Remembering a Sequence with Online Function Approximation](https://yaofu.notion.site/Why-S4-is-Good-at-Long-Sequence-Remembering-a-Sequence-with-Online-Function-Approximation-836fc54a49aa413b84997a265132f13f)
 
+**Slides**: [long_seq_s4.pdf](slides/yaofu/long_seq_s4.pdf)
+
 ## 08/19/2022
 
 skip
