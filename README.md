@@ -15,6 +15,30 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 09/16/2022
+
+**Paper**: [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf)
+
+**Abstract**
+
+We introduce a framework that abstracts Reinforcement Learning (RL) as a sequence modeling problem. This allows us to draw upon the simplicity and scalability of the Transformer architecture, and associated advances in language modeling such as GPT-x and BERT. In particular, we present Decision Transformer, an architecture that casts the problem of RL as conditional sequence modeling. Unlike prior approaches to RL that fit value functions or compute policy gradients, Decision Transformer simply outputs the optimal actions by leveraging a causally masked Transformer. By conditioning an autoregressive model on the desired return (reward), past states, and actions, our Decision Transformer model can generate future actions that achieve the desired return. Despite its simplicity, Decision Transformer matches or exceeds the performance of state-of-the-art model-free offline RL baselines on Atari, OpenAI Gym, and Key-to-Door tasks
+
+**Presenter**: Weizhi Wang [slides](slides/weizhiwang/Decision_Transformer.pptx)
+
+
+## 09/09/2022
+
+**Paper**: [Share or Not? Learning to Schedule Language-Specific Capacity for Multilingual Translation](https://openreview.net/forum?id=Wj4ODo0uyCF)
+
+**Abstract**
+
+Using a mix of shared and language-specific (LS) parameters has shown promise in multilingual neural machine  translation (MNMT), but the question of when and where LS capacity matters most is still under-studied. We offer such a study by proposing conditional language-specific routing (CLSR). CLSR employs hard binary gates conditioned on token representations to dynamically select LS or shared paths. By manipulating these gates, it can schedule LS capacity across sub-layers in MNMT subject to the guidance of translation signals and budget constraints. Moreover, CLSR can easily scale up to massively multilingual settings. Experiments with Transformer on OPUS-100 and WMT datasets show that: 1) MNMT is sensitive to both the amount and the position of LS modeling: distributing 10%-30% LS computation to the top and/or bottom encoder/decoder layers delivers the best performance; and 2) one-to-many translation benefits more from CLSR compared to many-to-one translation, particularly with unbalanced training data. Our study further verifies the trade-off between the shared capacity and LS capacity for multilingual translation. We corroborate our analysis by confirming the soundness of our findings as foundation of our improved multilingual Transformers. Source code and models are available at https://github.com/bzhangGo/zero/tree/iclr2021_clsr.
+One-sentence Summary: We investigate and improve parameter-sharing strategies in multilingual Transformers by utilizing conditional computation.
+
+**Presenter**: Guojun Yan [slides]()
+
+
+
 ## 09/02/2022
 
 Planning Meeting
