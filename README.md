@@ -15,6 +15,16 @@ So here is a [reading list](readinglist.md), which includes interesting papers n
 
 # Meetings
 
+## 09/23/2022
+
+**Paper**: [CONFIT: Toward Faithful Dialogue Summarization with Linguistically-Informed Contrastive Fine-tuning](https://arxiv.org/abs/2112.08713)
+
+**Abstract**
+
+Factual inconsistencies in generated summaries severely limit the practical applications of abstractive dialogue summarization. Although significant progress has been achieved by using pre-trained models, substantial amounts of hallucinated content are found during the human evaluation. Pre-trained models are most commonly fine-tuned with cross-entropy loss for text summarization, which may not be an optimal strategy. In this work, we provide a typology of factual errors with annotation data to highlight the types of errors and move away from a binary understanding of factuality. We further propose a training strategy that improves the factual consistency and overall quality of summaries via a novel contrastive fine-tuning, called ConFiT. Based on our linguistically-informed typology of errors, we design different modular objectives that each target a specific type. Specifically, we utilize hard negative samples with errors to reduce the generation of factual inconsistency. In order to capture the key information between speakers, we also design a dialogue-specific loss. Using human evaluation and automatic faithfulness metrics, we show that our model significantly reduces all kinds of factual errors on the dialogue summarization, SAMSum corpus. Moreover, our model could be generalized to the meeting summarization, AMI corpus, and it produces significantly higher scores than most of the baselines on both datasets regarding word-overlap metrics.
+
+**Presenter**: Shuo Wang [slides](slides/shuowang/9.23_shuowang.pptx)
+
 ## 09/16/2022
 
 **Paper**: [Decision Transformer: Reinforcement Learning via Sequence Modeling](https://arxiv.org/pdf/2106.01345.pdf)
